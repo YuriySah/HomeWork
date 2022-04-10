@@ -6,14 +6,8 @@ public class HomeWorkApp {
         compareNumbers();
     }
 
-    private static void compareNumbers() {
-        int a = 18;
-        int b = 8;
-        if (a >= b) {
-            System.out.println("a >= b");
-        } else {
-            System.out.println("a < b");
-        }
+    private static void printThreeWords() {
+        System.out.println("Orange\nBanana\nApple");
     }
 
     private static void checkSumSign() {
@@ -37,7 +31,13 @@ public class HomeWorkApp {
         }
     }
 
-    private static void printThreeWords() {
-        System.out.println("Orange\nBanana\nApple");
+    private static void compareNumbers() {
+        int a = 18;
+        int b = 8;
+        if (a >= b) {
+            System.out.println("a >= b");
+        } else {
+            System.out.println("a < b");
+        }
     }
 }
