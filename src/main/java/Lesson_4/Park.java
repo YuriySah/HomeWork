@@ -39,16 +39,5 @@ public class Park {
             return nameOfAttraction;
         }
 
-        public void setAttractionCost(int attractionCost) {
-            this.attractionCost = attractionCost;
-        }
-
-        public void setAttractionTimeOfWork(int attractionTimeOfWork) {
-            this.attractionTimeOfWork = attractionTimeOfWork;
-        }
-
-        public void setNameOfAttraction(String nameOfAttraction) {
-            this.nameOfAttraction = nameOfAttraction;
-        }
     }
 }
