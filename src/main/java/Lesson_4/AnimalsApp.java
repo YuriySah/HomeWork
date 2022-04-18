@@ -12,6 +12,9 @@ public class AnimalsApp {
         dog.swim(10);
         cat.run(150);
         cat.swim(0);
+        dogRex.swim(15);
+        dogCaptain.run(800);
+        catNinja.run(500);
 
         System.out.println("Общее количество собак = "+ dog.getDogCount());
         System.out.println("Общее количество котов = "+ cat.getCatCount());
