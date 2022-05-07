@@ -14,7 +14,7 @@ public class BBCAuthorizationTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/AndUser/IdeaProjects/HomeWork/src/main/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/Users/y.sakh/IdeaProjects/HomeWork/src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         bbcMainPage = PageFactory.initElements(driver, BBCMainPage.class);
         bbcMainPage.open();
